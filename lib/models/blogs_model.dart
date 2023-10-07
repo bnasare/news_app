@@ -1,4 +1,6 @@
-class BlogsModel {
+import 'package:flutter/material.dart';
+
+class BlogsModel with ChangeNotifier {
   String? id;
   String? imageUrl;
   String? title;
